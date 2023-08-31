@@ -1,5 +1,6 @@
 package com.project.TeamSync.Service;
 
+import com.project.TeamSync.Entity.Team;
 import com.project.TeamSync.Repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,4 +23,5 @@ public class UserService {
             }
         };
     }
+
 }
